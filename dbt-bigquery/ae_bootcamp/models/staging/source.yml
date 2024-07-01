@@ -1,0 +1,26 @@
+version: 2
+sources: 
+  - name: northwind
+    database: crafty-dynamics-427113-q7
+    schema: dl_northwind
+    tables:
+      - name: customer
+      - name: employee_privilege
+      - name: employee
+      - name: inventory_transaction_type
+      - name: inventory_transaction
+      - name: invoice
+      - name: order_detail
+      - name: order_detail_status
+      - name: order
+      - name: order_status
+      - name: order_tax_status
+      - name: privileges
+      - name: products
+      - name: purchase_order_details
+      - name: purchase_order_status
+      - name: purchase_order
+      - name: shippers
+      - name: suppliers
+      - name: strings
+
