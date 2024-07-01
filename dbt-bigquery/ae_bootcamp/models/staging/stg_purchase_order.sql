@@ -1,4 +1,7 @@
 with source as (
     select * from {{ source('northwind', 'purchase_order') }}
 )
-select * from source
+select 
+    *,
+    current_timestamp() as ingestion_date
+from source
