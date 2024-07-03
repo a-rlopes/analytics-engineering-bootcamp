@@ -37,4 +37,9 @@ models:
       +materialized: table
       +schema: stg_northwind
     warehouse:
+      +enabled:  true
+      +materialized: table
+      +schema: dlw_northwind
+      dim_date:
+        +materialized: view
     analytics_obt:
